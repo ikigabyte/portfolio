@@ -1,0 +1,32 @@
+.navbar-toggle {
+  z-index: 3;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+@media screen and (min-width:768px) {
+  .navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .navbar > .container .navbar-brand-centered, .navbar > .container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+  }
+}
+
+a {
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link:hover {
+  /*background-color: #000;*/
+}
+
